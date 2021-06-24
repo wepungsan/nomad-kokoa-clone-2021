@@ -1,0 +1,25 @@
+.badge {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.badge-sm {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+}
+
+.nav__list:last-child .badge.badge-sm {
+    left: 35px;
+}
+
+.screen-header__icons .badge.badge-sm {
+    left: 75px;
+}
